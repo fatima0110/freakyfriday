@@ -8,6 +8,31 @@
   body {
     background-color: lightgrey;
   }
+.navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+.menyli {
+  float: left;
+}
+
+li a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+
+}
+
   table, th, td {
     border: 1px solid black;
     border-collapse: collapse;
@@ -16,7 +41,15 @@
   th, td {
     padding: 15px;
   }
+
   </style>
+
+  <ul class="navbar">
+    <li class="menyli"><a href="index.html">Home</a></li>
+    <li class="menyli"><a href="Værogklima1.html" >V&aelig;r og klima</a></li>
+    <li class="menyli"><a href="Fakta1.html">Fakta</a></li>
+</ul>
+
 <h1>V&aelig;r og klima</h1>
 <p>Her finner du en oversikt over v&aelig;r og klima i Pakistan.
    Under finner du en tabell med registrerte temperaturer i landet fra 2019. </p>
@@ -71,6 +104,7 @@
    </table>
 
    <p><strong>Tabell 1:</strong> Datene i tabellen er hentet fra <a href="https://no.climate-data.org/asia/pakistan/islamabad-capital-territory/islamabad-32/" target="_blank">Climate-data</a>. Her ser vi min.- og maks.- temperaturene året rundt.</p>
+
 
 </body>
 </html>
